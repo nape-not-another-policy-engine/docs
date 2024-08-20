@@ -12,9 +12,9 @@ env:
   CONFIG_JSON_PRODUCT: 'N-NAPE'
   CONFIG_JSON_VERSION: '1.0'
   ALGOLIA_ARTIFACT: 'algolia-indexes-N-NAPE.zip'
-  ALGOLIA_APP_ID: '${{ secrets.ALGOLIA_APP_ID }}'
-  ALGOLIA_INDEX_NAME: '${{ secrets.ALGOLIA_INDEX_NAME }}'
-  ALGOLIA_WRITE_KEY: '${{ secrets.ALGOLIA_WRITE_KEY }}'
+  ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+  ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+  ALGOLIA_WRITE_KEY: ${{ secrets.ALGOLIA_WRITE_KEY }}
 
 permissions:
   id-token: write
