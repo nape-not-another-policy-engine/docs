@@ -20,7 +20,7 @@ jobs:
 
       - name: Echo variables
         run: |
-          echo "INSTANCE=${{ vars.INSTANCE }}"
+          echo "INSTANCE=${{ env.INSTANCE }}"
           echo "ARTIFACT=${{ vars.ARTIFACT }}"
           echo "DOCKER_VERSION=${{ vars.DOCKER_VERSION }}"
           echo "CONFIG_JSON_PRODUCT=${{ vars.CONFIG_JSON_PRODUCT }}"
