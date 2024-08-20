@@ -86,6 +86,8 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
   publish-indexes:
+    environment:
+      name: github-pages
     needs: [build, test, deploy]
     runs-on: ubuntu-latest
     container:
