@@ -92,6 +92,6 @@ jobs:
           --application-name '${{secrets.ALGOLIA_APP_ID}}' \
           --index-name '${{secrets.ALGOLIA_INDEX_NAME}}' \
           --product '${{vars.CONFIG_JSON_PRODUCT}}' \
-          --version '${{vars/CONFIG_JSON_VERSION}}' \
+          --version '${{vars.CONFIG_JSON_VERSION}}' \
           --index-directory algolia-indexes/ \
           2>&1 | tee algolia-update-index-log.txt
