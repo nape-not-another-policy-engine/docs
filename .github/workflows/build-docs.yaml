@@ -21,16 +21,16 @@ jobs:
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
-          instance: $INSTANCE
-          artifact: $ARTIFACT
-          docker-version: $DOCKER_VERSION
+          instance: ${{vars.INSTANCE}}
+          artifact: ${{vars.ARTIFACT}}
+          docker-version: ${{vars.DOCKER_VERSION}}
 
       - name: Save artifact with build results
         uses: actions/upload-artifact@v4
         with:
           name: docs
           path: |
-            artifacts/$ARTIFACT
+            artifacts/${{vars.ARTIFACT}}
             artifacts/report.json
             artifacts/${{secrets.ALGOLIA_ARTIFACT}}
           retention-days: 7
@@ -47,7 +47,7 @@ jobs:
       - name: Test documentation
         uses: JetBrains/writerside-checker-action@v1
         with:
-          instance: $INSTANCE
+          instance: ${{vars.INSTANCE}}
   deploy:
     environment:
       name: github-pages
@@ -61,7 +61,7 @@ jobs:
           name: docs
 
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq '$ARTIFACT' -d dir
+        run: unzip -O UTF-8 -qq '${{vars.ARTIFACT}}' -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -91,7 +91,7 @@ jobs:
           update-index \
           --application-name '${{secrets.ALGOLIA_APP_ID}}' \
           --index-name '${{secrets.ALGOLIA_INDEX_NAME}}' \
-          --product '$CONFIG_JSON_PRODUCT' \
-          --version '$CONFIG_JSON_VERSION' \
+          --product '${{vars.CONFIG_JSON_PRODUCT}}' \
+          --version '${{vars/CONFIG_JSON_VERSION}}' \
           --index-directory algolia-indexes/ \
           2>&1 | tee algolia-update-index-log.txt
