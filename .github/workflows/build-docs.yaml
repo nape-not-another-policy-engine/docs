@@ -9,17 +9,6 @@ permissions:
   id-token: write
   pages: write
 
-env:
-  INSTANCE: 'Writerside/n-nape'
-  ARTIFACT: 'webHelpN-NAPE-all.zip'
-  DOCKER_VERSION: '241.18775'
-  ALGOLIA_ARTIFACT: 'algolia-indexes-N-NAPE.zip'
-  ALGOLIA_APP_NAME: 'NLAGB2LZHU'
-  ALGOLIA_INDEX_NAME: 'MY_INDEX'
-  ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
-  CONFIG_JSON_PRODUCT: 'HI'
-  CONFIG_JSON_VERSION: '1.0'
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,18 +21,18 @@ jobs:
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
-          instance: ${{ env.INSTANCE }}
-          artifact: ${{ env.ARTIFACT }}
-          docker-version: ${{ env.DOCKER_VERSION }}
+          instance: $INSTANCE
+          artifact: $ARTIFACT
+          docker-version: $DOCKER_VERSION
 
       - name: Save artifact with build results
         uses: actions/upload-artifact@v4
         with:
           name: docs
           path: |
-            artifacts/${{ env.ARTIFACT }}
+            artifacts/$ARTIFACT
             artifacts/report.json
-            artifacts/${{ env.ALGOLIA_ARTIFACT }}
+            artifacts/${{secrets.ALGOLIA_ARTIFACT}}
           retention-days: 7
   test:
     needs: build
@@ -58,7 +47,7 @@ jobs:
       - name: Test documentation
         uses: JetBrains/writerside-checker-action@v1
         with:
-          instance: ${{ env.INSTANCE }}
+          instance: $INSTANCE
   deploy:
     environment:
       name: github-pages
@@ -72,7 +61,7 @@ jobs:
           name: docs
 
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
+        run: unzip -O UTF-8 -qq '$ARTIFACT' -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -97,12 +86,12 @@ jobs:
           name: docs
       - name: Unzip artifact
         run: |
-          unzip -O UTF-8 -qq '${{ env.ALGOLIA_ARTIFACT }}' -d algolia-indexes
-          env algolia-key='${{env.ALGOLIA_KEY}}' java -jar /opt/builder/help-publication-agent.jar \
+          unzip -O UTF-8 -qq '${{secrets.ALGOLIA_ARTIFACT}}' -d algolia-indexes
+          env algolia-key='${{secrets.ALGOLIA_WRITE_KEY}}' java -jar /opt/builder/help-publication-agent.jar \
           update-index \
-          --application-name '${{env.ALGOLIA_APP_NAME}}' \
-          --index-name '${{env.ALGOLIA_INDEX_NAME}}' \
-          --product '${{env.CONFIG_JSON_PRODUCT}}' \
-          --version '${{env.CONFIG_JSON_VERSION}}' \
+          --application-name '${{secrets.ALGOLIA_APP_ID}}' \
+          --index-name '${{secrets.ALGOLIA_INDEX_NAME}}' \
+          --product '$CONFIG_JSON_PRODUCT' \
+          --version '$CONFIG_JSON_VERSION' \
           --index-directory algolia-indexes/ \
           2>&1 | tee algolia-update-index-log.txt
