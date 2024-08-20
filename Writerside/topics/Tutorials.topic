@@ -17,95 +17,95 @@
 
     <section-starting-page>
         <title>NAPE Tutorials</title>
-<!--        <description>-->
-<!--            Add an introductory paragraph: explain what this section is about in 2-3 short sentences.-->
-<!--        </description>-->
+        <description>
+            Add an introductory paragraph: explain what this section is about in 2-3 short sentences.
+        </description>
 
-<!--        &lt;!&ndash;    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    &ndash;&gt;-->
-<!--        <spotlight>-->
-<!--            <a href="" type="account" summary="This overrides the card summary of the topic">Custom card title</a>-->
-<!--            <a href="" type="search" summary="This overrides the card summary of the topic">Another custom title</a>-->
-<!--        </spotlight>-->
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="" type="account" summary="This overrides the card summary of the topic">Custom card title</a>
+            <a href="" type="search" summary="This overrides the card summary of the topic">Another custom title</a>
+        </spotlight>
 
-<!--        &lt;!&ndash;    Add several topics that are most important for this section.    &ndash;&gt;-->
-<!--        <primary>-->
-<!--            <title>Get started</title>-->
-<!--            <a href=""/>-->
-<!--            <a href="" summary="With a custom card summary"/>-->
-<!--            <a href="">Custom card title</a>-->
-<!--            <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--        </primary>-->
+        <!--    Add several topics that are most important for this section.    -->
+        <primary>
+            <title>Get started</title>
+            <a href=""/>
+            <a href="" summary="With a custom card summary"/>
+            <a href="">Custom card title</a>
+            <a href="" summary="With a custom card summary">Custom card title</a>
+        </primary>
 
-<!--        &lt;!&ndash;    Add several topics that are less important or are relevant only for advanced/experienced users.    &ndash;&gt;-->
-<!--        <secondary>-->
-<!--            <title>Explore advanced features</title>-->
-<!--            <a href=""/>-->
-<!--            <a href="" summary="With a custom card summary"/>-->
-<!--            <a href="">Custom card title</a>-->
-<!--            <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--        </secondary>-->
+        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
+        <secondary>
+            <title>Explore advanced features</title>
+            <a href=""/>
+            <a href="" summary="With a custom card summary"/>
+            <a href="">Custom card title</a>
+            <a href="" summary="With a custom card summary">Custom card title</a>
+        </secondary>
 
-<!--        &lt;!&ndash;    Optionally add additional cards and links to topics that are not in this section but may be relevant.    &ndash;&gt;-->
-<!--        <misc>-->
-<!--            <cards>-->
-<!--                <title>Other relevant topics as wide cards</title>-->
-<!--                <a href=""/>-->
-<!--                <a href="" summary="With a custom card summary"/>-->
-<!--                <a href="">Custom card title</a>-->
-<!--                <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--            </cards>-->
+        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+        <misc>
+            <cards>
+                <title>Other relevant topics as wide cards</title>
+                <a href=""/>
+                <a href="" summary="With a custom card summary"/>
+                <a href="">Custom card title</a>
+                <a href="" summary="With a custom card summary">Custom card title</a>
+            </cards>
 
-<!--            <cards narrow="true">-->
-<!--                <title>Other relevant topics as narrow cards</title>-->
-<!--                <a href=""/>-->
-<!--                <a href=""/>-->
-<!--                <a href="" summary="With a custom card summary"/>-->
-<!--                <a href="">Custom card title</a>-->
-<!--                <a href="">Custom card title</a>-->
-<!--                <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--            </cards>-->
+            <cards narrow="true">
+                <title>Other relevant topics as narrow cards</title>
+                <a href=""/>
+                <a href=""/>
+                <a href="" summary="With a custom card summary"/>
+                <a href="">Custom card title</a>
+                <a href="">Custom card title</a>
+                <a href="" summary="With a custom card summary">Custom card title</a>
+            </cards>
 
-<!--            <links>-->
-<!--                <group>-->
-<!--                    <title>Other related topics as links</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="" summary="With a custom card summary"/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--                </group>-->
-<!--                <group>-->
-<!--                    <title>Two in a row</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="" summary="With a custom card summary"/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--                </group>-->
-<!--            </links>-->
+            <links>
+                <group>
+                    <title>Other related topics as links</title>
+                    <a href=""/>
+                    <a href="" summary="With a custom card summary"/>
+                    <a href="">Custom card title</a>
+                    <a href="" summary="With a custom card summary">Custom card title</a>
+                </group>
+                <group>
+                    <title>Two in a row</title>
+                    <a href=""/>
+                    <a href="" summary="With a custom card summary"/>
+                    <a href="">Custom card title</a>
+                    <a href="" summary="With a custom card summary">Custom card title</a>
+                </group>
+            </links>
 
-<!--            <links narrow="true">-->
-<!--                <group>-->
-<!--                    <title>More related topics</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="" summary="With a custom card summary"/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
-<!--                </group>-->
-<!--                <group>-->
-<!--                    <title>Three in a row</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                </group>-->
-<!--                <group>-->
-<!--                    <title>Each group is narrow</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href=""/>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="">Custom card title</a>-->
-<!--                </group>-->
-<!--            </links>-->
-<!--        </misc>-->
+            <links narrow="true">
+                <group>
+                    <title>More related topics</title>
+                    <a href=""/>
+                    <a href="" summary="With a custom card summary"/>
+                    <a href="">Custom card title</a>
+                    <a href="" summary="With a custom card summary">Custom card title</a>
+                </group>
+                <group>
+                    <title>Three in a row</title>
+                    <a href=""/>
+                    <a href=""/>
+                    <a href="">Custom card title</a>
+                    <a href="">Custom card title</a>
+                </group>
+                <group>
+                    <title>Each group is narrow</title>
+                    <a href=""/>
+                    <a href=""/>
+                    <a href="">Custom card title</a>
+                    <a href="">Custom card title</a>
+                </group>
+            </links>
+        </misc>
     </section-starting-page>
 
 </topic>

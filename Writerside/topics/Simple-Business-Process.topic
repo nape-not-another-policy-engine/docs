@@ -10,74 +10,74 @@
         Tutorial 1  - Simple Business Process - Under Construction
     </p>
 
-<!--    <p>-->
-<!--        Provide a short outline for the tutorial.-->
-<!--        In this tutorial, you will learn how to:-->
-<!--    </p>-->
+    <p>
+        Provide a short outline for the tutorial.
+        In this tutorial, you will learn how to:
+    </p>
 
-<!--    <list>-->
-<!--        <li>Do this</li>-->
-<!--        <li>Deal with that</li>-->
-<!--    </list>-->
+    <list>
+        <li>Do this</li>
+        <li>Deal with that</li>
+    </list>
 
-<!--    <chapter title="Before you start" id="before-you-start">-->
-<!--        <p>-->
-<!--            List the prerequisites that are required or recommended.-->
-<!--            Make sure that:-->
-<!--        </p>-->
+    <chapter title="Before you start" id="before-you-start">
+        <p>
+            List the prerequisites that are required or recommended.
+            Make sure that:
+        </p>
 
-<!--        <list>-->
-<!--            <li>Prerequisite one</li>-->
-<!--            <li>Prerequisite two</li>-->
-<!--        </list>-->
-<!--    </chapter>-->
+        <list>
+            <li>Prerequisite one</li>
+            <li>Prerequisite two</li>
+        </list>
+    </chapter>
 
-<!--    <chapter title="Part 1" id="part-one">-->
-<!--        <p>-->
-<!--            Describe what the user will learn and accomplish in the first part,-->
-<!--            then write a step-by-step procedure but on a real-world example.-->
-<!--        </p>-->
+    <chapter title="Part 1" id="part-one">
+        <p>
+            Describe what the user will learn and accomplish in the first part,
+            then write a step-by-step procedure but on a real-world example.
+        </p>
 
-<!--        <procedure>-->
-<!--            <step>-->
-<!--                <p>Execute the following command in the terminal:</p>-->
+        <procedure>
+            <step>
+                <p>Execute the following command in the terminal:</p>
 
-<!--                <code-block lang="bash">-->
-<!--                    run this &#45;&#45;that-->
-<!--                </code-block>-->
-<!--            </step>-->
+                <code-block lang="bash">
+                    run this --that
+                </code-block>
+            </step>
 
-<!--            <step>-->
-<!--                Step with a <a href="https://www.jetbrains.com">link</a>.-->
-<!--            </step>-->
+            <step>
+                Step with a <a href="https://www.jetbrains.com">link</a>.
+            </step>
 
-<!--            <step>-->
-<!--                Final step in part 1.-->
-<!--            </step>-->
-<!--        </procedure>-->
-<!--    </chapter>-->
+            <step>
+                Final step in part 1.
+            </step>
+        </procedure>
+    </chapter>
 
-<!--    <chapter title="Part 2" id="part-two">-->
-<!--        <p>This is the second part of the tutorial:</p>-->
+    <chapter title="Part 2" id="part-two">
+        <p>This is the second part of the tutorial:</p>
 
-<!--        <procedure>-->
-<!--            <step>-->
-<!--                From the menu, select <ui-path>Foo | Bar</ui-path>.-->
-<!--            </step>-->
-<!--            <step>-->
-<!--                Enter <code>this text</code> in the <control>Text</control> field.-->
-<!--            </step>-->
-<!--            <step>-->
-<!--                Click <control>OK</control> to...-->
-<!--            </step>-->
-<!--        </procedure>-->
-<!--    </chapter>-->
+        <procedure>
+            <step>
+                From the menu, select <ui-path>Foo | Bar</ui-path>.
+            </step>
+            <step>
+                Enter <code>this text</code> in the <control>Text</control> field.
+            </step>
+            <step>
+                Click <control>OK</control> to...
+            </step>
+        </procedure>
+    </chapter>
 
-<!--    <chapter title="What you've learned" id="what-learned">-->
-<!--        <p>Summarize what the reader achieved by completing this tutorial.</p>-->
-<!--    </chapter>-->
+    <chapter title="What you've learned" id="what-learned">
+        <p>Summarize what the reader achieved by completing this tutorial.</p>
+    </chapter>
 
-<!--    <seealso>-->
-<!--        &lt;!&ndash;Give some related links to how-to articles&ndash;&gt;-->
-<!--    </seealso>-->
+    <seealso>
+        <!--Give some related links to how-to articles-->
+    </seealso>
 </topic>
