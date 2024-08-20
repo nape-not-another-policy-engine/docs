@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="n-nape"
+                 name="NAPE - Not Another Policy Engine"
+                 start-page="starter-topic.md">
+
+    <toc-element topic="starter-topic.md"/>
+    <toc-element topic="Getting-Started.topic">
+        <toc-element topic="Installation.md"/>
+    </toc-element>
+    <toc-element topic="Usecase-Examples.topic">
+        <toc-element topic="DevOps-Automated-Governance-SDLC-CI-CD.md"/>
+    </toc-element>
+    <toc-element topic="Tutorials.topic">
+        <toc-element topic="Tutorial-1.topic">
+            <toc-element topic="Simple-Business-Process.topic"/>
+            <toc-element topic="Simple-SDLC.topic"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Glossary.topic"/>
+</instance-profile>

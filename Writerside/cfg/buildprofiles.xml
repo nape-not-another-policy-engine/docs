@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <web-root>https://docs.napecentral.com/</web-root>
+        <custom-favicons>https://napecentral.com/wp-content/uploads/2024/07/cropped-favicon-625x625-1.png</custom-favicons>
+        <content-max-width>1170</content-max-width>
+    </variables>
+
+    <shortcuts>
+        <src>keymap.xml</src>
+        <layout name="Windows" display-name="Windows"/>
+        <layout name="macOS" display-name="macOS"/>
+        <layout name="GNOME" display-name="Linux"/>
+    </shortcuts>
+
+    <footer>
+        <social type="blog" href="https://napecentral.com/blog">NAPE Blog</social>
+        <social type="twitter" href="https://x.com/NAPE_Central">NAPE on Twitter</social>
+        <social type="linkedin" href="https://www.linkedin.com/company/not-another-policy-engine-nape">NAPE on LinkedIn</social>
+        <social type="youtube" href="https://www.youtube.com/channel/UCD5GfmbT3HuIaPe1H9Nmi_A">NAPE on YouTube</social>
+
+        <link href="mailto:community@napecentral.com">Contact us</link>
+
+        <copyright>2024 Bill Bensing</copyright>
+    </footer>
+
+    <build-profile instance="n-nape">
+        <sitemap priority="0.45" change-frequency="weekly"/>
+        <variables>
+            <primary-color>#7590c6</primary-color>
+            <noindex-content>false</noindex-content>
+            <product-web-url>https://napecentral.com/</product-web-url>
+            <og-twitter>@NAPE_Central</og-twitter>
+            <og-image>https://napecentral.com/wp-content/uploads/2024/07/OG-Images-1-OGImage-NAPECentral-Home-1200x630-1.jpeg</og-image>
+            <header-logo>https://napecentral.com/wp-content/uploads/2024/07/cropped-nape-ape-icon7590c6-bkgtrans.png</header-logo>
+        </variables>
+    </build-profile>
+
+</buildprofiles>
