@@ -18,12 +18,20 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Echo variables
+        run: |
+          echo "INSTANCE=${{ vars.INSTANCE }}"
+          echo "ARTIFACT=${{ vars.ARTIFACT }}"
+          echo "DOCKER_VERSION=${{ vars.DOCKER_VERSION }}"
+          echo "CONFIG_JSON_PRODUCT=${{ vars.CONFIG_JSON_PRODUCT }}"
+          echo "CONFIG_JSON_VERSION=${{ vars.CONFIG_JSON_VERSION }}"
+
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
-          instance: ${{vars.INSTANCE}}
-          artifact: ${{vars.ARTIFACT}}
-          docker-version: ${{vars.DOCKER_VERSION}}
+          instance: ${{ vars.INSTANCE }}
+          artifact: ${{ vars.ARTIFACT }}
+          docker-version: ${{ vars.DOCKER_VERSION }}
 
       - name: Save artifact with build results
         uses: actions/upload-artifact@v4
