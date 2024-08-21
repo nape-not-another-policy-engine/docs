@@ -3,6 +3,7 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
+
     <variables>
         <web-root>https://docs.napecentral.com</web-root>
         <custom-favicons>https://napecentral.com/wp-content/uploads/2024/07/cropped-favicon-625x625-1.png</custom-favicons>
@@ -10,6 +11,7 @@
         <algolia-id>6TQZNNFWMD</algolia-id>
         <algolia-index>nape_docs</algolia-index>
         <algolia-api-key>c8143e31db50191121eb24f4c1ecdf4d</algolia-api-key>
+        <versions-switcher>https://raw.githubusercontent.com/nape-not-another-policy-engine/docs/main/help-versions.json</versions-switcher>
     </variables>
 
     <shortcuts>
