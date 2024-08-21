@@ -11,6 +11,7 @@
         <toc-element topic="installing-nape.md"/>
     </toc-element>
     <toc-element topic="nape-usecase-and-examples.topic">
+        <toc-element topic="business-process-assurnace.md"/>
         <toc-element topic="nape-for-devops-automated-governance-sdlc-ci-cd.md"/>
     </toc-element>
     <toc-element topic="nape-tutorials.topic">
