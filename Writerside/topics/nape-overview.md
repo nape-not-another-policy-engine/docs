@@ -1,4 +1,4 @@
-# NAPE - Not Another Policy Engine - Overview
+# NAPE Overview
 
 NAPE is an Assurance Engine that uses the business domain concepts to provide a structured way to conduct any type of assurance activity which requires:
 

@@ -16,15 +16,15 @@
             For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
 
     <section-starting-page>
-        <title>Section starting page title</title>
+        <title>Getting Started with NAPE</title>
         <description>
             Add an introductory paragraph: explain what this section is about in 2-3 short sentences.
         </description>
 
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
-            <a href="" type="account" summary="This overrides the card summary of the topic">Custom card title</a>
-            <a href="" type="search" summary="This overrides the card summary of the topic">Another custom title</a>
+            <a href="nape-core-concepts.md" type="learn" summary="This overrides the card summary of the topic">Core Concepts</a>
+            <a href="installing-nape.md" type="settings" summary="This overrides the card summary of the topic">Installing NAPE</a>
         </spotlight>
 
         <!--    Add several topics that are most important for this section.    -->
@@ -45,67 +45,6 @@
             <a href="" summary="With a custom card summary">Custom card title</a>
         </secondary>
 
-        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
-        <misc>
-            <cards>
-                <title>Other relevant topics as wide cards</title>
-                <a href=""/>
-                <a href="" summary="With a custom card summary"/>
-                <a href="">Custom card title</a>
-                <a href="" summary="With a custom card summary">Custom card title</a>
-            </cards>
-
-            <cards narrow="true">
-                <title>Other relevant topics as narrow cards</title>
-                <a href=""/>
-                <a href=""/>
-                <a href="" summary="With a custom card summary"/>
-                <a href="">Custom card title</a>
-                <a href="">Custom card title</a>
-                <a href="" summary="With a custom card summary">Custom card title</a>
-            </cards>
-
-            <links>
-                <group>
-                    <title>Other related topics as links</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
-                </group>
-                <group>
-                    <title>Two in a row</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
-                </group>
-            </links>
-
-            <links narrow="true">
-                <group>
-                    <title>More related topics</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
-                </group>
-                <group>
-                    <title>Three in a row</title>
-                    <a href=""/>
-                    <a href=""/>
-                    <a href="">Custom card title</a>
-                    <a href="">Custom card title</a>
-                </group>
-                <group>
-                    <title>Each group is narrow</title>
-                    <a href=""/>
-                    <a href=""/>
-                    <a href="">Custom card title</a>
-                    <a href="">Custom card title</a>
-                </group>
-            </links>
-        </misc>
     </section-starting-page>
 
 </topic>
