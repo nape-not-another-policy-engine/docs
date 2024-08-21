@@ -12,6 +12,12 @@
         <algolia-index>nape_docs</algolia-index>
         <algolia-api-key>c8143e31db50191121eb24f4c1ecdf4d</algolia-api-key>
         <versions-switcher>https://raw.githubusercontent.com/nape-not-another-policy-engine/docs/main/help-versions.json</versions-switcher>
+        <primary-color>#7590c6</primary-color>
+        <noindex-content>false</noindex-content>
+        <product-web-url>https://napecentral.com</product-web-url>
+        <og-twitter>@NAPE_Central</og-twitter>
+        <og-image>https://napecentral.com/wp-content/uploads/2024/07/OG-Images-1-OGImage-NAPECentral-Home-1200x630-1.jpeg</og-image>
+        <header-logo>https://napecentral.com/wp-content/uploads/2024/07/cropped-nape-ape-icon7590c6-bkgtrans.png</header-logo>
     </variables>
 
     <shortcuts>
@@ -34,14 +40,6 @@
 
     <build-profile instance="n-nape">
         <sitemap priority="0.45" change-frequency="weekly"/>
-        <variables>
-            <primary-color>#7590c6</primary-color>
-            <noindex-content>false</noindex-content>
-            <product-web-url>https://napecentral.com</product-web-url>
-            <og-twitter>@NAPE_Central</og-twitter>
-            <og-image>https://napecentral.com/wp-content/uploads/2024/07/OG-Images-1-OGImage-NAPECentral-Home-1200x630-1.jpeg</og-image>
-            <header-logo>https://napecentral.com/wp-content/uploads/2024/07/cropped-nape-ape-icon7590c6-bkgtrans.png</header-logo>
-        </variables>
     </build-profile>
 
 </buildprofiles>
