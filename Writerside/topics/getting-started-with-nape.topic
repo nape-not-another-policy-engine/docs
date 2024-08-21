@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Usecase Examples" id="Usecase-Examples">
+       title="Getting Started" id="getting-started-with-nape" help-id="Getting-Started">
 
 <!--    A section combines multiple topics dedicated to a specific subject.
             Add a starting page to provide an overview of the topics in the section.
