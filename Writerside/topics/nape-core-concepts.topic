@@ -12,8 +12,8 @@
         </description>
 
         <spotlight>
+            <a href="autonomous-assurance.topic" type="cross-platform" summary="The objective for all assurance work is to go from manual, to automated, and finally end up at autonomous.  Autonomous Assurance is not a buzzword, it is self-directed automation.">Autonomous Assurance</a>
             <a href="iia-three-lines-of-defense.topic" type="branch" summary="The IIA (Institute of Internal Auditors) Three Lines of Defense model describes how all relevant stakeholders from the front-line employee to the Board of Directors interact in order to ensure organizational risk mitigation.">The Three Lines of Defense</a>
-            <a href="installing-nape.md" type="settings" summary="todo">todo</a>
         </spotlight>
 
         <primary>

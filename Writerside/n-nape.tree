@@ -9,6 +9,7 @@
     <toc-element topic="nape-overview.md"/>
     <toc-element topic="getting-started-with-nape.topic">
         <toc-element topic="nape-core-concepts.topic">
+            <toc-element topic="autonomous-assurance.topic"/>
             <toc-element topic="iia-three-lines-of-defense.topic"/>
         </toc-element>
         <toc-element topic="installing-nape.md"/>
