@@ -23,7 +23,7 @@
 
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
-            <a href="nape-core-concepts.md" type="learn" summary="This overrides the card summary of the topic">Core Concepts</a>
+            <a href="nape-core-concepts.topic" type="learn" summary="This overrides the card summary of the topic">Core Concepts</a>
             <a href="installing-nape.md" type="settings" summary="This overrides the card summary of the topic">Installing NAPE</a>
         </spotlight>
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Core Concepts" id="nape-core-concepts" help-id="Core-Concepts">
+
+    <section-starting-page>
+        <title>NAPE Core Concepts</title>
+        <description>
+            A comprehensive list of core concepts that are the first principles of NAPE.
+        </description>
+
+        <spotlight>
+            <a href="iia-three-lines-of-defense.topic" type="branch" summary="The IIA (Institute of Internal Auditors) Three Lines of Defense model describes how all relevant stakeholders from the front-line employee to the Board of Directors interact in order to ensure organizational risk mitigation.">The Three Lines of Defense</a>
+            <a href="installing-nape.md" type="settings" summary="todo">todo</a>
+        </spotlight>
+
+        <primary>
+            <title>todo</title>
+            <a href="installing-nape.md">TODO 1</a>
+            <a href="nape-glossary.topic">TODO 2</a>>
+        </primary>
+
+        <secondary>
+            <title>todo</title>
+            <a href="nape-overview.md">TODO</a>
+            <a href="nape-tutorials.topic">TODO</a>>
+        </secondary>
+
+    </section-starting-page>
+
+</topic>

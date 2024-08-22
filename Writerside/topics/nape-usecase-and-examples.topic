@@ -30,7 +30,7 @@
         <!--    Add several topics that are most important for this section.    -->
         <primary>
             <title>Get started</title>
-            <a href="nape-core-concepts.md" summary="Learn the Core Concepts from Internal Audit and formal Assurance that NAPE is built upon.">NAPE Core Concepts</a>
+            <a href="nape-core-concepts.topic" summary="Learn the Core Concepts from Internal Audit and formal Assurance that NAPE is built upon.">NAPE Core Concepts</a>
             <a href="installing-nape.md" summary="Install NAPE on your computer or anywhere you need it to collect evidence, evaluate facts, and report compliance.">Install NAPE</a>
         </primary>
 
