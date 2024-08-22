@@ -1,6 +1,5 @@
 # NAPE Overview
 
-
 ## What is NAPE?
 
 NAPE is an Assurance Engine that helps you perform different types of assurance activities. It does this by:
