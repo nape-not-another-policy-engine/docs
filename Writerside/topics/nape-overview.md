@@ -12,7 +12,7 @@ NAPE is an Assurance Engine that helps you perform different types of assurance 
 
 NAPE is a tool that helps people in the [first line, second line, and third lines of defense](iia-three-lines-of-defense.topic) work together more effectively. It does this by removing the need for humans to be involved in every step of the assurance process. Instead, NAPE uses the concept of Autonomous Assurance, so humans can focus on making important decisions rather than on routine tasks.
 
-## What Problem does NAPE Solve For?
+## What Problem Does NAPE Solve For?
 
 Keeping up with all the rules and regulations is one of the biggest challenges in regulated business. As these requirements grow, relying on old methods—like using lots of paperwork and manual labor—is no longer enough. These traditional methods don’t work well for large-scale operations, aren’t efficient, and don’t help in remembering important information over time.
 
@@ -23,3 +23,24 @@ Another area for improvement is a gap between the technical work needed to ensur
 This situation shows that companies need to rethink how they organize their work between the technical talent and their employees who best understand the compliance and regulatory requirements. The goal should be to let computers handle the tasks they do best, like processing and storing information. Applying this level of automation allows humans to focus on making strategic decisions and assessing risks. This change should also include creating a culture of ongoing, real-time compliance checks so companies are always ready for an audit.
 
 This way, human efforts can focus on finding new risks and managing them before they become problems rather than just fixing issues after they arise.
+
+## How NAPE Approaches the Problem
+
+To solve the challenges we’ve identified, we have created a set of guiding principles. These principles explain our overall plan for tackling the obstacles and making sure our actions match our goals. The guiding policy is like a big-picture guide that helps us decide what to do and how to do it. By following these principles, we keep our approach clear, focused, and flexible, even when things change. Below, we explain the eight main principles that guide our approach to solving these problems.
+
+1. **Humans-Think & Computers-Compute**
+
+    Create ways of working that allow humans to do what they are best at, and computers to do what they are best at.
+
+   - **Human Strengths:** Humans are good at solving complex problems, planning for the future, and making decisions based on the situation.
+   - **Computer Strengths:** Computers are best at handling repetitive tasks, and they can manage large amounts of data quickly, allowing humans to focus on more important a complex decisions and judgements.
+
+2. **Clear & Formal Terminology**
+
+   Words are important, and the names of capabilities or components are just as crucial as their proper functioning. It is very important that all terms used to talk about NAPE match exactly with the formal language used by industry institutions that define and teach assurance and audit processes.
+
+3. **Move from Manual, to Automated, and Ultimately to Autonomous**
+
+   Move towards creating an autonomous system where assurance tasks operate independently, only requiring human involvement when updates to the assurance task or the things that trigger the assurance tasks are necessary.
+
+
