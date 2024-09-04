@@ -23,8 +23,8 @@
 
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
-            <a href="Tutorial-1.topic" type="account" summary="Get started with a basic tutorial for Process Assurance">Simple Process Assurance</a>
-            <a href="tutorial-2.topic" type="search" summary="Try your hand out at Configuration &amp; Calibration Assurance">Simple Configuration &amp; Calibration Assurance</a>
+            <a href="Tutorial-1.topic" type="library" />
+            <a href="tutorial-2.topic" type="mixed" />
         </spotlight>
 
         <!--    Add several topics that are most important for this section.    -->
