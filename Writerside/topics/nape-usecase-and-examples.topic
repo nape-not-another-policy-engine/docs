@@ -29,16 +29,18 @@
 
         <!--    Add several topics that are most important for this section.    -->
         <primary>
-            <title>Get started</title>
-            <a href="nape-core-concepts.topic" summary="Learn the Core Concepts from Internal Audit and formal Assurance that NAPE is built upon.">NAPE Core Concepts</a>
-            <a href="installing-nape.md" summary="Install NAPE on your computer or anywhere you need it to collect evidence, evaluate facts, and report compliance.">Install NAPE</a>
+            <title>Process Assurance Usecases</title>
+            <a href="business-process-assurance.md" type="account" summary="Many company policies, industry, and regulations require certain business processes to meet a high standard for execution.  Lean how NAPE can analyze a complex business processes to assess its compliance."/>
+            <a href="nape-for-devops-automated-governance-sdlc-ci-cd.md" type="search" summary="The best companies change their software and systems frequently to maintain a competitive advantage. See how NAPE can replace Change Approval Boards (CABs) leveraging the DevOps Automated Governance Reference Architecture (DAG)."/>
         </primary>
 
         <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
         <secondary>
-            <title>Hands-On Learning with Tutorials</title>
-            <a href="Simple-Business-Process.topic" summary="Use NAPE to autonomize assurance for a Human Resources on-boarding processes.">NAPE for Business Processes</a>
-            <a href="Simple-SDLC.topic" summary="Verify a CI/CD processes with Automated Governance powered by NAPE">Software Delivery with NAPE</a>
+            <title>Configuration &amp; Calibration Usecases</title>
+            <a href="software-as-a-service-configuration-assurance.md"
+               summary="SaaS does not excuse you from mis-configuring access or usage by your employees of the service. Learn how NAPE provides automated assurance for the aspects of SaaS software you have a responsibility to manage."/>
+            <a href="web-server-configuration-assurance.md"
+               summary="Regardless if your server is hosted within your datacenter or hosted on a third-party's infrastructure, there are many security and other configuration values you must ensure are calibrated correctly.  Explore how NAPE can automate assurance for software such as your webservers no matter who or where they are hosted."/>
         </secondary>
 
     </section-starting-page>
