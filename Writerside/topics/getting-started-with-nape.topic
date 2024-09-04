@@ -18,31 +18,29 @@
     <section-starting-page>
         <title>Getting Started with NAPE</title>
         <description>
-            Add an introductory paragraph: explain what this section is about in 2-3 short sentences.
+            How do your learn best? Is it by understanding everything from the ground up, or is by getting hands-on and working on real-life problems? Start ground-up with Core Concepts, and get Hands-On by starting with NAPE Installation.
         </description>
 
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
-            <a href="nape-core-concepts.topic" type="learn" summary="This overrides the card summary of the topic">Core Concepts</a>
-            <a href="installing-nape.md" type="settings" summary="This overrides the card summary of the topic">Installing NAPE</a>
+            <a href="nape-core-concepts.topic" type="learn" summary="Dig into the concepts and first principles NAPE is based on.  These Core Concepts cover the business concepts in 'What NAPE Does', and discussion the new ways of working with the 'What You Do' section. ">Core Concepts</a>
+            <a href="installing-nape.md" type="settings" summary="Get hands-on right away and install the NAPE software.  Then check out the Usecases &amp; Examples, or go straight to the Tutorials.">Installing NAPE</a>
         </spotlight>
 
         <!--    Add several topics that are most important for this section.    -->
         <primary>
-            <title>Get started</title>
-            <a href=""/>
-            <a href="" summary="With a custom card summary"/>
-            <a href="">Custom card title</a>
-            <a href="" summary="With a custom card summary">Custom card title</a>
+            <title>Core Concepts</title>
+            <a href="what-nape-does.md" type="check-list" summary="Learn the first-principles NAPE is using. Explore the ideas behind controls, assurance, audit, the two (2) types of assurance procedures, and the concept of the P/F/I Test.">What NAPE Does</a>
+            <a href="what-you-do.md" type="community" summary="Explore how this can change for the good, your and your peers' roles and responsibilities. Read about Governance Engineering and how you can leverage it for Autonomous Assurance.">What You Do</a>
         </primary>
 
         <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
         <secondary>
-            <title>Explore advanced features</title>
-            <a href=""/>
-            <a href="" summary="With a custom card summary"/>
-            <a href="">Custom card title</a>
-            <a href="" summary="With a custom card summary">Custom card title</a>
+            <title>Usecases &amp; Examples</title>
+            <a href="business-process-assurance.md" type="library" summary="TODO - Provide Summary"/>
+            <a href="nape-for-devops-automated-governance-sdlc-ci-cd.md" type="branch" summary="TODO - Provide Summary"/>
+            <a href="software-as-a-service-configuration-assurance.md" type="mixed" summary="TODO - Provide Summary"/>
+            <a href="web-server-configuration-assurance.md" type="server" summary="TODO - Provide Summary"/>
         </secondary>
 
     </section-starting-page>

@@ -6,40 +6,22 @@
        title="Autonomous Assurance" id="autonomous-assurance">
 
     <p>
-        A reference article is information-oriented.
-        It provides a structured description of a product:
-        its APIs, classes, functions, configuration options, actions, and so on.
-        Start with a summary of what this reference article is about, and what the items you are describing are used for.
+        TODO: Create this material
     </p>
 
-    <chapter title="Command" id="command">
-        <p>Syntax:</p>
-
-        <code-block lang="shell">
-            cmd [OPTIONS]
-        </code-block>
+    <chapter title="What is &lt;product/service/concept&gt;" id="overview-chapter" >
+        <p>Provide some background and context, explain choices and alternatives.</p>
     </chapter>
-
-    <chapter title="Options" id="options">
-        <p>Describe what each option is used for:</p>
-
-        <deflist type="medium">
-            <def title="-o, --open">
-                Opens a file.
+    <chapter title="Glossary" id="glossary">
+        <p>A definition list or a glossary:</p>
+        <deflist>
+            <def title="Term1">
+                This is the definition of the first term.
             </def>
-            <def title="-c, --close">
-                Closes a file.
-            </def>
-            <def title="-v --version">
-                Displays version information.
-            </def>
-            <def title="-h, --help">
-                Displays help.
+            <def title="Term2">
+                This is the definition of the second term.
             </def>
         </deflist>
     </chapter>
 
-    <seealso>
-        <!--Provide links to related how-to guides, overviews, and tutorials.-->
-    </seealso>
 </topic>

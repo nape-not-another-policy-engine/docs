@@ -3,10 +3,11 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Governance Engineering" id="governance-engineering">
+       title="P/F/I - Pass, Fail, or Inconclusive" id="pass-fail-inconclusive">
 
     <p>
-        TODO: Create this material
+        Overview articles give background information and provide context to a particular subject.
+        Their goal is to explain a concept, not to teach or give instructions.
     </p>
 
     <chapter title="What is &lt;product/service/concept&gt;" id="overview-chapter" >

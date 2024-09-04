@@ -5,13 +5,19 @@
 NAPE is an Assurance Engine that helps you perform different types of assurance activities. It does this by:
 
 - **Collecting** evidence in any format,
-- **Evaluating** the evidence to check for specific facts,
-- **Aggregating** or combining the results from many fact-checks, and
-- **Establishing** whether a process or "thing" is compliant or not.
+- **Evaluating** the evidence to verify specific facts,
+- **Combines** many individual evaluations into a single composable assurance procedure, and
+- **Verifying** that the assurance procedure for a process, configuration, or calibration is compliant.
 
-NAPE is a tool that helps people in the [first line, second line, and third lines of defense](iia-three-lines-of-defense.topic) work together more effectively. It does this by removing the need for humans to be involved in every step of the assurance process. Instead, NAPE uses the concept of Autonomous Assurance, so humans can focus on making important decisions rather than on routine tasks.
+
+## Where would you like to start
+
+
+
 
 ## What Problem Does NAPE Solve For?
+
+NAPE is a tool that helps people in the [first line, second line, and third lines of defense](iia-three-lines-of-defense.topic) work together more effectively. It does this by removing the need for humans to be involved in every step of the assurance process. Instead, NAPE uses the concept of Autonomous Assurance, so humans can focus on making important decisions rather than on routine tasks.
 
 Keeping up with all the rules and regulations is one of the biggest challenges in regulated business. As these requirements grow, relying on old methods—like using lots of paperwork and manual labor—is no longer enough. These traditional methods don’t work well for large-scale operations, aren’t efficient, and don’t help in remembering important information over time.
 

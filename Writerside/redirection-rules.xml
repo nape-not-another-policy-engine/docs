@@ -6,8 +6,4 @@
         <accepts>page.html</accepts>
     </rule>
     -->
-    <rule id="7ea2f225">
-        <description>Created after removal of "Tutorial-1" from NAPE - Not Another Policy Engine</description>
-        <accepts>Tutorial-1.html</accepts>
-    </rule>
 </rules>

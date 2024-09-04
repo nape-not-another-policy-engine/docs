@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Types of Assurance Procedures" id="the-two-types-of-assurance-procedures">
+
+    <p>
+        There are two fundamental "things" to provide assurance procedures for: Processes, Configuration &amp; Calibration.  Assurance Procedures may be created to verify that a process executes to expectation, or the configuration or calibration of a tool or system achieves expectation.
+
+    </p>
+
+    <list>
+        <li><b>Process Assurance</b> is verifying that some process, and the things outputs the process creates, obtain a specific outcomes.</li>
+        <li><b>Configuration &amp; Calibration Assurance</b> is verifying that the settings of something you use, as a tool or implement, are in fact the expected settings.</li>
+    </list>
+
+    <chapter title="Process Assurance" id="process-assurance" >
+        <p>A Business process is a series of activities and actions which are sequenced in such a way that they take some input and process this input to achieve an expected outcome.
+        </p>
+
+    </chapter>
+
+    <chapter title="Configuration &amp; Calibration Assurance" id="configuration-calibration-assurance" >
+        <p>Provide some background and context, explain choices and alternatives.</p>
+    </chapter>
+</topic>
