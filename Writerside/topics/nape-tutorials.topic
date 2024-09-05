@@ -23,7 +23,7 @@
 
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
-            <a href="Tutorial-1.topic" type="library" />
+            <a href="tutorial-1.topic" type="library" />
             <a href="tutorial-2.topic" type="mixed" />
         </spotlight>
 

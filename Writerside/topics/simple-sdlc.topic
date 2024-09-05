@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Simple SDLC" id="Simple-SDLC">
+       title="Simple SDLC" id="simple-sdlc" help-id="Simple-SDLC">
 
     <!--    TODO - Tutorial 2  - Simple SDLC -->
     <p>

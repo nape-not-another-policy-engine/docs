@@ -9,7 +9,42 @@
         Here you'll find all the terms and other links to the
     </p>
 
+
     <deflist type="full" sorted="asc" collapsible="true" default-state="collapsed">
+
+
+
+        <def title="Control Action" id="control-action">
+            <p>todo</p>
+
+            <b>Context</b>
+            <p>todo</p>
+
+            <b>Example</b>
+            <p>todo</p>
+
+            <b>Sources</b>
+            <list>
+                <li>todo</li>
+            </list>
+        </def>
+
+        <def title="Control Activity" id="control-activity">
+            <p>todo</p>
+
+            <b>Context</b>
+            <p>todo</p>
+
+            <b>Example</b>
+            <p>todo</p>
+
+            <b>Sources</b>
+            <list>
+                <li>todo</li>
+            </list>
+        </def>
+
+
         <def title="Test of Details" id="test-of-details">
         <p>A procedure which evaluates direct evidence to either detect material misstatements or a non-compliance assertion.</p>
 

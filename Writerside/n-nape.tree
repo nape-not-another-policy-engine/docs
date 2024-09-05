@@ -6,7 +6,10 @@
                  name="NAPE - Not Another Policy Engine"
                  start-page="nape-overview.md">
 
-    <toc-element topic="nape-overview.md"/>
+    <toc-element topic="nape-overview.md">
+        <toc-element topic="what-problem-does-nape-solve-for.md"/>
+        <toc-element topic="how-does-nape-approach-the-problem.md"/>
+    </toc-element>
     <toc-element topic="getting-started-with-nape.topic">
         <toc-element topic="installing-nape.md"/>
         <toc-element topic="nape-core-concepts.topic">
@@ -33,9 +36,9 @@
         </toc-element>
     </toc-element>
     <toc-element topic="nape-tutorials.topic">
-        <toc-element topic="Tutorial-1.topic">
-            <toc-element topic="Simple-Business-Process.topic"/>
-            <toc-element topic="Simple-SDLC.topic"/>
+        <toc-element topic="tutorial-1.topic">
+            <toc-element topic="simple-business-process.topic"/>
+            <toc-element topic="simple-sdlc.topic"/>
         </toc-element>
         <toc-element topic="tutorial-2.topic"/>
     </toc-element>

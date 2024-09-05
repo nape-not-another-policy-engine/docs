@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Tutorial 1 - Simple Business Process Assurance" id="Tutorial-1">
+       title="Tutorial 1 - Simple Business Process Assurance" id="tutorial-1" help-id="Tutorial-1">
 
     <p>
         Let's take a few examples of business processes and build the NAPE assurance procedure, test of details, and create a remote NAPE repository to store this procedure for others to use.
