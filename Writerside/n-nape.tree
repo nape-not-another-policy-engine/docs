@@ -11,7 +11,14 @@
         <toc-element topic="how-does-nape-approach-the-problem.md"/>
     </toc-element>
     <toc-element topic="getting-started-with-nape.topic">
-        <toc-element topic="installing-nape.md"/>
+        <toc-element topic="installing-nape.md">
+            <toc-element topic="install-from-source-code.md">
+                <toc-element topic="installing-nape-from-source-code-pre-requisites.topic"/>
+                <toc-element topic="installing-nape-from-source-code-build-and-install.md"/>
+            </toc-element>
+            <toc-element topic="install-from-package-manager.md"/>
+            <toc-element topic="no-install-necessary-napespace-remote-development.md"/>
+        </toc-element>
         <toc-element topic="nape-core-concepts.topic">
             <toc-element topic="what-nape-does.md">
                 <toc-element topic="control-assurance-and-audit.topic"/>

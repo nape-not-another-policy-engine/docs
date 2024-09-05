@@ -44,6 +44,20 @@
             </list>
         </def>
 
+        <def title="NAPE Assurance Procedure" id="nape-assurance-procedure">
+            <p>todo</p>
+
+            <b>Context</b>
+            <p>todo</p>
+
+            <b>Example</b>
+            <p>todo</p>
+
+            <b>Sources</b>
+            <list>
+                <li>todo</li>
+            </list>
+        </def>
 
         <def title="Test of Details" id="test-of-details">
         <p>A procedure which evaluates direct evidence to either detect material misstatements or a non-compliance assertion.</p>

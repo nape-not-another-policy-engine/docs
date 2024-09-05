@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Pre-Requisites" id="installing-nape-from-source-code-pre-requisites">
+
+    <p>
+        To install NAPE from source code, you first need the following installed on your machine:
+    </p>
+
+    <chapter title="Python 3.0 or greater" id="python-pre-req" >
+        View the official <a href="https://www.python.org/downloads/">Python Installation Documentation</a> to install Python 3.0 or greater. Python is required to execute the NAPE Test of Details python scripts.
+    </chapter>
+
+    <chapter title="pip" id="pip-pre-req" >
+        Python generally comes with PIP, but it does not, here is <a href="https://pip.pypa.io/en/stable/installation/">how you install PIP</a>
+    </chapter>
+
+    <chapter title="Rust" id="rust-pre-req" >
+        <a href="https://www.rust-lang.org/">Rust</a> is the main programming language used to create NAPE. View the official <a href="https://www.rust-lang.org/tools/install">Rust Installation documentation</a>.
+    </chapter>
+
+    <chapter title="Make" id="make-pre-req" >
+        <p>
+            Make is used to orchestrate the build and install commands for both NAPE cli and NAPE-Evaluator CLI. We recommend you use your favorite package manager to install Make onto your machine.  It can be either <a href="https://www.gnu.org/software/make/">GNU Make</a> or <a href="https://cmake.org/">CMake</a>.
+        </p>
+
+        <p>
+            Below are a set of common ways to install Make on your machine given you operating system:
+        </p>
+
+        <tabs>
+            <tab title="Any OS" id="any-os">
+                <list>
+                    <li><a href="https://cmake.org/download/">Download the Official Binary</a></li>
+                    <li><a href="https://anaconda.org/anaconda/cmake">Anaconda</a></li>
+                    <li><a href="https://pypi.org/project/cmake/">PIP (Preferred Installer Program)</a></li>
+                </list>
+            </tab>
+            <tab title="Linux" id="linux-os">
+                <list>
+                    <li><a href="https://apt.kitware.com/">APT - Ubuntu/Debian Only (official)</a></li>
+                    <li><a href="https://snapcraft.io/cmake">Snapcraft (official)</a></li>
+                </list>
+            </tab>
+            <tab title="MacOS" id="mac-os" >
+                <list>
+                    <li><a href="https://formulae.brew.sh/formula/cmake">Homebrew</a></li>
+                    <li><a href="https://ports.macports.org/port/cmake/summary">MacPorts</a></li>
+                </list>
+            </tab>
+            <tab title="Windows" id="windows-os">
+                <list>
+                    <li><a href="https://chocolatey.org/packages/cmake">Chocolatey</a></li>
+                    <li><a href="https://packages.msys2.org/base/mingw-w64-cmake">MSYS2</a></li>
+                    <li><a href="https://github.com/ScoopInstaller/Main/blob/master/bucket/cmake.json">Scoop</a></li>
+                    <li><a href="https://github.com/microsoft/winget-pkgs/tree/master/manifests/k/Kitware/CMake">WinGet</a></li>
+                    <li>
+                        Here are <a href="https://medium.com/@samsorrahman/how-to-run-a-makefile-in-windows-b4d115d7c516">detailed directions</a> by <a href="https://medium.com/@samsorrahman">Samsor Rahman</a> on how to use <a href="https://www.mingw-w64.org/">MinGW</a> to install Make on Windows.
+                    </li>
+                </list>
+            </tab>
+        </tabs>
+
+    </chapter>
+
+
+</topic>
