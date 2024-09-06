@@ -7,7 +7,7 @@ To begin the installation process, you'll first need to ensure you have all four
 - [Rust](https://www.rust-lang.org/)
 - Make - Either [GNU Make](https://www.gnu.org/software/make/) or [CMake](https://cmake.org/)
 
-If you have these four (4) pre-requisites already installed, or once you have those installed and working, you can then start the [Build & Install](installing-nape-from-source-code-build-and-install.md) process.
+If you have these four (4) pre-requisites already installed, or once you have those installed and working, you can then start the [Build & Install](installing-nape-from-source-code-build-and-install.topic) process.
 
 
 

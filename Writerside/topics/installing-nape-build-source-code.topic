@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="2nd - Build Source Code" id="installing-nape-build-source-code" >
+
+    <p>
+        Now that you have <b>nape</b> and <b>nape-evaluator</b>  source code, we are going to build each software.
+    </p>
+
+    <chapter title="NAPE-Evaluator CLI" id="first-build-nape-evaluator-cli">
+
+        <p>
+            The <a href="https://github.com/nape-not-another-policy-engine/nape-evaluator">NAPE-Evaluator</a> is a Python application.  The goal of this build process is to create a <a href="https://pypi.org/project/whl/">WHL file (pronounced 'wheel')</a>.  This WHL file is the <a href="https://packaging.python.org/en/latest/specifications/binary-distribution-format/">binary distribution format</a> we will use to install the NAPE-Evaluator CLI.
+        </p>
+
+        <procedure id="first-build-nape-evaluator-whl-file">
+
+            <step>
+                <p>
+                    Navigate your way into the <b>nape-evaluator</b> directory from your nape project directory.  For example:
+                </p>
+
+                <code-block lang="bash">
+                    nape-not-another-policy-engine % cd nape-evaluator
+                    nape-evaluator %
+                </code-block>
+
+            </step>
+
+            <step>
+                <p>
+                    Once inside the <b>nape-evaluator</b> directory, run the command:
+                </p>
+
+                <code-block lang="bash">
+                    make build-release
+                </code-block>
+
+                <p>
+                    This command will kick off the full build process and create the WHL file, and other *.tar.gz file.  All the build system and runtime dependencies will be downloaded, and the nape-evaluator project will be compiled into two specific outputs.
+                </p>
+
+                <p>
+                    The build ran successfully, you'll see a not like the one below pop up in your terminal:
+                </p>
+
+                <code-block lang="bash">
+                    NAPE Evaluator - Release Build COMPLETE!
+                </code-block>
+            </step>
+
+            <step>
+                <p>
+                    You should now see couple new directories appear in your <b>nape-evaluator</b> source code directory.  The one we are interested in is the <b>build-output</b> directory.
+                </p>
+
+                <img src="nape-evaluator-build-output.png" alt="New NAPE Evaluator directories created from the build" width="352"/>
+
+                <p>
+                    Navigate into that directory, like below:
+                </p>
+
+                <code-block lang="bash">
+                    nape-evaluator % cd build-output
+                    build-output %
+                </code-block>
+
+            </step>
+
+            <step>
+                <p>
+                    Inside the <b>build-directory</b>, you'll see another directory called <b>dist</b>, navigate into that directory.
+                </p>
+                
+                <img src="nape-evaluator-dist-directory.png" alt="The inside of the build-output/dist directory created from the 'make build-release' command" width="318"/>
+
+                <p>
+                    Inside the <b>dist</b> directory, you will see two files.  A <b>*.tar.gz</b> file, and a <b>*.whl</b> file.  The names of these files will start with <b>nape-</b> and be followed by a version number that follows the <a href="https://semver.org/">SemVer Versioning Specification</a> such as <b>1.0.0</b>.
+                </p>
+            </step>
+
+            <step>
+                The NAPE-Evaluator build is complete if the <b>nape-X.X.X-py3-none-any.whl</b> file is in the <b>nape-evaluator/build-output/dist</b> directory.
+            </step>
+
+
+        </procedure>
+
+    </chapter>
+
+    <chapter title="NAPE CLI" id="second-build-nape-cli">
+
+        <p>
+            The <a href="https://github.com/nape-not-another-policy-engine/nape">NAPE CLI</a> is main program that you, or a machine, will use to import and execute a <a href="nape-glossary.topic#nape-assurance-procedure" />.
+        </p>
+
+        <procedure id="second-build-nape-cli-binary">
+
+            <step>
+                <p>
+                    Navigate your way into the <b>nape</b> directory from your nape project directory.  For example:
+                </p>
+
+                <code-block lang="bash">
+                    nape-not-another-policy-engine % cd nape
+                    nape %
+                </code-block>
+
+            </step>
+
+            <step>
+
+                <p>
+                    Once inside the <b>nape</b> directory, run the command:
+                </p>
+
+                <code-block lang="bash">
+                    make build-release
+                </code-block>
+
+                <p>
+                    If all goes well, you'll see the following message in your terminal:
+                </p>
+
+                <code-block lang="bash">
+                    Release Build COMPLETE!
+                </code-block>
+
+                <p>
+                    This command will kick off the full build process and create a new directory in your nape project directory called <b>builds</b>.  To access this, you'll need to navigate up one directory level from the current <b>nape</b> directory back to the project directory, and then you'll see the <b>builds</b> directory which was created.
+                </p>
+
+                <code-block lang="bash">
+                    nape % cd ..
+                    nape-not-another-policy-engine % ls -a
+                    .       builds      nape      (possibly other directories)       ..
+                </code-block>
+
+
+            </step>
+
+            <step>
+                <p>
+                    Navigate to the <b>builds</b> directory, and inside it you'll see a subdirectory called <b>release</b>.  Inside the <b>release</b> directory you'll see many other directories and files.
+                </p>
+                
+                <img src="nape-cli-build-output.png" alt="The 'builds' directory which is the output of the nape cli build." width="282"/>
+
+                <p>
+                    Towards the bottom, you'll see the <b>nape</b> executable.  This is the software program will install in the next steps.
+                </p>
+            </step>
+
+
+
+        </procedure>
+
+    </chapter>
+
+    <chapter title="Next, Installing the NAPE Software" id="next-install-nape-software">
+        <p>
+            Now that we have installable binaries for the NAPE-Evaluator CLI and NAPE CLI, let's install them!
+        </p>
+
+    </chapter>
+
+</topic>

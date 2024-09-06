@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Build and Install" id="installing-nape-from-source-code-build-and-install">
+
+    <p>
+        By now, you should have all the <a href="installing-nape-from-source-code-pre-requisites.topic">pre-requisites</a> installed on your machine.
+
+        Let's install the two following components:
+    </p>
+
+    <list>
+        <li><a href="nape-components-nape-command-line-interface-cli.topic"/></li>
+        <li><a href="nape-components-nape-evaluator-command-line-interface-cli.topic"/></li>
+    </list>
+
+    <p>
+        We recommend you create a new directory called <b>nape-not-another-policy-engine</b> where we will download all the repositories you need.  From here on, unless otherwise stated, when we use the works <b><i>download</i></b> or <b><i>clone</i></b> into you <b><i>nape project directory</i></b>, we are referring to a directory such as our recommendation.
+    </p>
+
+
+</topic>

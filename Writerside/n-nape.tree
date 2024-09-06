@@ -14,7 +14,11 @@
         <toc-element topic="installing-nape.md">
             <toc-element topic="install-from-source-code.md">
                 <toc-element topic="installing-nape-from-source-code-pre-requisites.topic"/>
-                <toc-element topic="installing-nape-from-source-code-build-and-install.md"/>
+                <toc-element topic="installing-nape-from-source-code-build-and-install.topic">
+                    <toc-element topic="installing-nape-download-source-code.topic"/>
+                    <toc-element topic="installing-nape-build-source-code.topic"/>
+                    <toc-element topic="installing-nape-install-source-code-binary.topic"/>
+                </toc-element>
             </toc-element>
             <toc-element topic="install-from-package-manager.md"/>
             <toc-element topic="no-install-necessary-napespace-remote-development.md"/>
@@ -48,6 +52,10 @@
             <toc-element topic="simple-sdlc.topic"/>
         </toc-element>
         <toc-element topic="tutorial-2.topic"/>
+    </toc-element>
+    <toc-element topic="nape-components.topic">
+        <toc-element topic="nape-components-nape-command-line-interface-cli.topic"/>
+        <toc-element topic="nape-components-nape-evaluator-command-line-interface-cli.topic"/>
     </toc-element>
     <toc-element topic="nape-glossary.topic"/>
 </instance-profile>

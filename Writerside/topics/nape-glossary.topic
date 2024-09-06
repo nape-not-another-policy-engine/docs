@@ -13,7 +13,6 @@
     <deflist type="full" sorted="asc" collapsible="true" default-state="collapsed">
 
 
-
         <def title="Control Action" id="control-action">
             <p>todo</p>
 
@@ -44,7 +43,37 @@
             </list>
         </def>
 
+        <def title="Evidence" id="evidence">
+            <p>todo</p>
+
+            <b>Context</b>
+            <p>todo</p>
+
+            <b>Example</b>
+            <p>todo</p>
+
+            <b>Sources</b>
+            <list>
+                <li>todo</li>
+            </list>
+        </def>
+
         <def title="NAPE Assurance Procedure" id="nape-assurance-procedure">
+            <p>todo</p>
+
+            <b>Context</b>
+            <p>todo</p>
+
+            <b>Example</b>
+            <p>todo</p>
+
+            <b>Sources</b>
+            <list>
+                <li>todo</li>
+            </list>
+        </def>
+
+        <def title="NAPE Test of Detail" id="nape-test-of-detail">
             <p>todo</p>
 
             <b>Context</b>
@@ -75,6 +104,7 @@
             <li><a href="https://cpahalltalk.com/test-of-details/">CPA Hall Talk - Test of Details: Substantive Audit Procedure</a> </li>
         </list>
     </def>
+
     </deflist>
 
 <!--    <chapter title="Command" id="command">-->

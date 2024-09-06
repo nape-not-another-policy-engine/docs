@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="3rd - Install Binaries" id="installing-nape-install-source-code-binary">
+
+    <p>
+        Now that you have build the executable binaries from the <b>nape</b> and <b>nape-evaluator</b> source code, let's install it all.
+    </p>
+
+    <p>
+        Given what type of machine you have, and the privileges you have on your machine, the following should work.
+    </p>
+
+    <p>
+        It is recommened that you install the <a href="nape-components-nape-evaluator-command-line-interface-cli.topic" /> first, then install the <a href="nape-components-nape-command-line-interface-cli.topic" />.  Why?  Because the <a href="nape-components-nape-command-line-interface-cli.topic" /> depends upon the <a href="nape-components-nape-evaluator-command-line-interface-cli.topic" /> to work.  If you install them visa-versa, nothing will break and you will not have any problems. <b>You simply need the <a href="nape-components-nape-evaluator-command-line-interface-cli.topic" /> installed so you can use the <a href="nape-components-nape-command-line-interface-cli.topic" /></b>
+    </p>
+
+    <chapter title="NAPE-Evaluator CLI" id="first-install-nape-evaluator-cli">
+
+        <procedure id="install-nape-evaluator-cli">
+
+            <step>
+                <p>
+                    Navigate your way into the <b>nape-evaluator</b> directory from your nape project directory.
+                </p>
+
+                <p>
+                    While in then <b>nape-evaluator</b> directory, run the command:
+                </p>
+
+                <code-block lang="bash">
+                    make pip-install
+                </code-block>
+
+                <p>
+                    You will see a lot of activity happen.  The NAPE-Evaluator is installed correctly when you see the following message:
+                </p>
+
+                <code-block lang="bash">
+                    NAPE Evaluator - PIP Installation - COMPLETE!
+                </code-block>
+
+                <p>
+                    You can now run the cli by using the following command:
+                </p>
+
+                <code-block lang="bash">
+                    nape-eval
+                </code-block>
+
+            </step>
+
+            <step>
+                <p>
+                    To verify the installation, run the command:
+                </p>
+
+                <code-block lang="bash">
+                    nape-eval --check-install
+                </code-block>
+
+                <p>
+                    You should be a message that looks something like this:
+                </p>
+
+                <code-block lang="text">
+                    NAPE Evaluator CLI is installed and working.
+                </code-block>
+
+            </step>
+
+            <step>
+                The NAPE-Evaluator is now installed successfully!
+            </step>
+
+        </procedure>
+
+    </chapter>
+
+    <chapter title="NAPE CLI" id="install-nape-cli">
+
+        <procedure id="second-build-nape-cli-binary">
+
+            <step>
+                <p>
+                    Navigate your way into the <b>nape</b> directory from your nape project directory.
+                </p>
+
+                <p>
+                    While in then <b>nape</b> directory, run the below command.  You will need to do this with elevated privileges because it installed the binary into your <b>/usr/local/bin</b> directory.
+                </p>
+
+                <code-block lang="bash">
+                    sudo make install
+                </code-block>
+
+                <p>
+                    You will see a lot of activity happen.  The NAPE CLI is installed correctly when you see the following message:
+                </p>
+
+                <code-block lang="bash">
+                    Copying COMPLETE!
+                </code-block>
+
+                <p>
+                    You can now run the cli by using the following command:
+                </p>
+
+                <code-block lang="bash">
+                    nape
+                </code-block>
+
+            </step>
+
+            <step>
+                <p>
+                    To verify the installation, run the command:
+                </p>
+
+                <code-block lang="bash">
+                    nape --version
+                </code-block>
+
+                <p>
+                    You should be a message that looks something like this:
+                </p>
+
+                <code-block lang="text">
+                    NAPE CLI 1.0.0
+                </code-block>
+
+            </step>
+
+            <step>
+                The NAPE CLI is now installed successfully!
+            </step>
+
+        </procedure>
+
+    </chapter>
+
+    <chapter title="Finally, Get Using NAPE!" id="usecases-examples-or-tutorials">
+        <p>
+            Now that everything is installed correctly, get started using your new NAPE tools by checking out:
+        </p>
+
+        <list>
+
+            <li>
+                <a href="nape-usecase-and-examples.topic" />
+                <list>
+                    <li><a href="business-process-assurance.md"/></li>
+                    <li><a href="nape-for-devops-automated-governance-sdlc-ci-cd.md"/></li>
+                    <li><a href="software-as-a-service-configuration-assurance.md" /></li>
+                    <li><a href="web-server-configuration-assurance.md" /></li>
+                </list>
+            </li>
+
+            <li>
+                <a href="nape-tutorials.topic" />
+                <list>
+                    <li><a href="tutorial-1.topic" /></li>
+                    <li><a href="tutorial-2.topic" /></li>
+                </list>
+            </li>
+
+        </list>
+
+    </chapter>
+
+</topic>

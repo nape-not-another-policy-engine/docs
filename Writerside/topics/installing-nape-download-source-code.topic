@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="1st - Download Source Code" id="installing-nape-download-source-code"
+       help-id="installing-nape-from-source-code-build-and-install-download-nape-evaluator;installing-nape-from-source-code-build-and-install-build-source-code;installing-nape-from-source-code-build-and-install-download-source-code">
+
+    <p>
+        Let's get started by cloning the <a href="https://github.com/nape-not-another-policy-engine/nape">NAPE</a> and <a href="https://github.com/nape-not-another-policy-engine/nape-evaluator">NAPE-Evaluator</a> source code repositories.
+    </p>
+
+    <chapter title="First, the NAPE-Evaluator" id="first-download-source-code-nape-evaluator-cli">
+        <p>
+            The <a href="https://github.com/nape-not-another-policy-engine/nape-evaluator">NAPE-Evaluator</a> is responsible for applying a <a href="nape-glossary.topic#nape-test-of-detail" /> to a piece of <a href="nape-glossary.topic#evidence"/>.
+        </p>
+
+        <procedure id="build-and-install-nape-evaluator">
+            <step>
+                <p>Either clone or download the <a href="https://github.com/nape-not-another-policy-engine/nape-evaluator">NAPE-Evaluator</a> source code into your nape project directory </p>
+
+                <p>If you are using <a href="https://git-scm.com/">git</a>, then simple clone the project using the following commands.  We always prefer the SSH approach for security reasons, although using an https clone works well if all you prefer to do is use the NAPE software.</p>
+
+                SSH
+                <code-block lang="bash">
+                    git clone git@github.com:nape-not-another-policy-engine/nape-evaluator.git
+                </code-block>
+
+                HTTPS
+                <code-block lang="bash">
+                    git clone https://github.com/nape-not-another-policy-engine/nape-evaluator.git
+                </code-block>
+
+                <p>
+                    <b>Not using Git?</b>
+                </p>
+
+                <p>
+                    You can download the software by clicking on the "Code" button near the top right of the screen, and then selecting the "Download Zip" option.
+                </p>
+
+
+                <img src="nape-evaluator-download-zip.png" width="244"  alt="How to Download ZIP File for NAPE Evaluator Source Code"/>
+
+
+                <p>
+                    Ensure you unzip the download into your nape project directory, and double check that the directory name of all the unzipped contents is called <i>nape-evaluator</i>.
+                </p>
+
+            </step>
+
+            <step>
+                Double check that you have a directory called <b>nape-evaluator</b> in your project directory.
+
+                <p>Here is an example of what your directory may look like:</p>
+
+                <code-block lang="bash">
+                    nape-not-another-policy-engine % ls -a
+                    .       nape-evaluator      ..
+                </code-block>
+
+                <p>If you navigate into the <b>nape-evaluator</b> directory, you should see the <i>Makefile</i> we will use in the following steps to build and install the cli.</p>
+
+                <code-block lang="bash">
+                    nape-not-another-policy-engine % cd nape-evaluator
+                    nape-evaluator % ls -a
+                    .       (many other files will be listed)         Makefile        ...
+                </code-block>
+
+            </step>
+
+            <step>
+                You are now done with downloading, or cloning, the NAPE-Evaluator source code.
+            </step>
+
+
+        </procedure>
+
+    </chapter>
+
+    <chapter title="Second, the NAPE CLI" id="second-download-source-code-nape-cli">
+        <p>
+            The <a href="https://github.com/nape-not-another-policy-engine/nape">NAPE CLI</a> is main program that you, or a machine, will use to import <a href="nape-glossary.topic#nape-assurance-procedure" /> and execute them.
+        </p>
+
+        <procedure id="build-and-install-nape-cli">
+            <step>
+                <p>Either clone or download the <a href="https://github.com/nape-not-another-policy-engine/nape">NAPE</a> source code into your nape project directory </p>
+
+                <p>If you are using <a href="https://git-scm.com/">git</a>, then simple clone the project using the following commands.  We always prefer the SSH approach for security reasons, although using an https clone works well if all you prefer to do is use the NAPE software.</p>
+
+                SSH
+                <code-block lang="bash">
+                    git clone git@github.com:nape-not-another-policy-engine/nape.git
+                </code-block>
+
+                HTTPS
+                <code-block lang="bash">
+                    git clone https://github.com/nape-not-another-policy-engine/nape.git
+                </code-block>
+
+                <p>
+                    <b>Not using Git?</b>
+                </p>
+
+                <p>
+                    You can download the software by clicking on the "Code" button near the top right of the screen, and then selecting the "Download Zip" option.
+                </p>
+
+
+                <img src="nape-cli-download-zip.png" width="244"  alt="How to Download ZIP File for NAPE CLI Source Code"/>
+
+
+                <p>
+                    Ensure you unzip the download into your nape project directory, and double check that the directory name of all the unzipped contents is called <i>nape</i>.
+                </p>
+
+            </step>
+
+            <step>
+                Double check that you have a directory called <b>nape</b> in your project directory.
+
+                <p>Here is an example of what your directory may look like:</p>
+
+                <code-block lang="bash">
+                    nape-not-another-policy-engine % ls -a
+                    .       nape        nape-evaluator      ..
+                </code-block>
+
+                <p>If you navigate into the <b>nape</b> directory, you should see the <i>Makefile</i> we will use in the following steps to build and install the cli.</p>
+
+                <code-block lang="bash">
+                    nape-not-another-policy-engine % cd nape
+                    nape % ls -a
+                    .       (many other files will be listed)         Makefile        ...
+                </code-block>
+
+            </step>
+
+            <step>
+                We are done with downloading the source code, let's build and install each cli.
+            </step>
+
+
+        </procedure>
+
+    </chapter>
+
+    <chapter title="Next, Build the Source Code" id="next-build-source-code">
+        <p>
+            By now, you should have both the <b>nape-evaluator</b> and <b>nape</b> directories within your nape project directory, and all the source code in each directory.
+        </p>
+
+        <p>
+            Let's move onto <a href="installing-nape-build-source-code.topic" />
+        </p>
+
+    </chapter>
+
+
+</topic>
