@@ -12,6 +12,7 @@
     </toc-element>
     <toc-element topic="getting-started-with-nape.topic">
         <toc-element topic="installing-nape.md">
+            <toc-element topic="install-nape-from-nape-binary-repo.topic"/>
             <toc-element topic="install-from-source-code.md">
                 <toc-element topic="installing-nape-from-source-code-pre-requisites.topic"/>
                 <toc-element topic="installing-nape-from-source-code-build-and-install.topic">

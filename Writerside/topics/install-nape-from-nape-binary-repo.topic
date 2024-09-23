@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Install NAPE from Official NAPE Central Repo" id="install-nape-from-nape-binary-repo">
+
+    <p>
+       The Official NAPE Binary Repository is our recommended approach for installing all the NAPE components.  Learn how to install all of the NAPE components form the official binary repo for the supported operating systems and cpu architectures.
+    </p>
+
+    <note>
+        <p><control>Currently Supported Operating Systems and CPU Architectures</control></p>
+
+        <p>
+            As of September 23, 2024, binaries for the following Operating Systems and CPU Architectures are available:
+        </p>
+        
+        <list>
+            <li>Linux - GNU
+                <list>
+                    <li><b>x86_64 - Supported</b></li>
+                    <li>aarch64 - Support Coming Soon</li>
+                </list>
+            </li>
+
+            <li>Linux - MUSL
+                <list>
+                    <li>x86_64 - Support Coming Soon</li>
+                    <li>aarch64 - Support Coming Soon</li>
+                </list>
+            </li>
+
+            <li>MacOS
+                <list>
+                    <li><b>x86_64 - Supported</b></li>
+                    <li><b>aarch64 - Supported</b></li>
+                </list>
+            </li>
+
+            <li>Windows
+                <list>
+                    <li>x86_64 - Support Coming Soon</li>
+                </list>
+            </li>
+
+        </list>
+    </note>
+
+    <chapter title="The Official NAPE Binary Repository" id="official-nape-binary-repo">
+        <p>The Official NAPE Binary Repository is located at: <a href="https://repo.napecentral.com"/></p>
+
+        <p>To download a specific binary, you will need 3 pieces of information:</p>
+
+        <p>All binaries can be downloaded using the following scheme:</p>
+        <code>https://repo.napecentral.com/{NAPE-Component}/{Version}/{Operating-System}/{CPU-Architecture}/{Binary-Name}</code>
+
+        <list>
+
+            <li>
+                <b>NAPE-Component</b>
+                <list>
+                    <li><code>nape-cli</code> -  <a href="nape-components-nape-command-line-interface-cli.topic"/>.</li>
+                    <li><code>nape-evaluator</code> - The <a href="nape-components-nape-evaluator-command-line-interface-cli.topic"/>
+                        <warning>
+                            <p><control>NAPE-Evaluator Requires PIP</control></p>
+
+                            <p>
+                                As of right now, <b>only the <a href="nape-components-nape-command-line-interface-cli.topic">NAPE CLI</a></b> is available from the Official NAPECentral Binary Repository.
+                            </p>
+
+                            <p>
+                                You still need to install the <a href="nape-components-nape-evaluator-command-line-interface-cli.topic">NAPE Evaluator CLI</a> using PIP.  To do so, simply invoke the following command:
+
+                                <code>pip install nape</code>
+                            </p>
+
+                            <p>Once you have installed the <a href="nape-components-nape-evaluator-command-line-interface-cli.topic">NAPE Evaluator CLI</a> via PIP, you can run the following command to verity it's installed:  <code>nape-eval --check-install</code>.
+                            </p>
+
+                            <p>If the <a href="nape-components-nape-evaluator-command-line-interface-cli.topic">NAPE Evaluator CLI</a> is correctly insalled, you will see the following message: <code>NAPE Evaluator CLI is installed and working.</code>.
+                            </p>
+
+
+                        </warning>
+                    </li>
+                </list>
+            </li>
+
+            <li>
+                <b>Version</b>
+                <list>
+                    <li>The version number you want to download. NAPE follows the <a href="https://semver.org/">Semantic Versioning (Semver) scheme</a>.</li>
+                    <li> For example: <code>1.0.0</code></li>
+                </list>
+            </li>
+
+            <li>
+                <b>Operating-System</b>
+                <list>
+                    <li><code>linux-gnu</code> - Linux operating systems (<a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">RHEL</a>, <a href="https://ubuntu.com/">Ubuntu</a>, <a href="https://en.wikipedia.org/wiki/Category:Debian-based_distributions">Debian-based distributions</a>, etc.) that use the <a href="https://gcc.gnu.org/">GNU C Linker</a></li>
+                    <li><code>linux-musl</code> - Linux operating systems (<a href="https://alpinelinux.org/">Alpine</a>, <a href="https://kisslinux.org/">KISS</a>, etc.) that use the <a href="https://musl.libc.org/">MUSL C Linker</a></li>
+                    <li><code>macos</code> - All <a href="https://www.apple.com/macos"> MacOS</a> operating systems</li>
+                    <li><code>windows</code> - All <a href="https://www.microsoft.com">Microsoft Windows</a> operating systems</li>
+                </list>
+            </li>
+
+            <li>
+                <b>CPU-Architecture</b>
+                <list>
+                    <li><code>x86_64</code></li>
+                    <li><code>aarch64</code></li>
+                </list>
+            </li>
+
+            <li>
+                <b>Binary-Name</b>
+                <list>
+                    <li><p>NAPE CLI</p>
+                        <list>
+                            <li>For Linux and MacOS - <code>nape</code></li>
+                            <li>For Windows - <code>nape.exe</code></li>
+                        </list>
+                    </li>
+                </list>
+            </li>
+        </list>
+
+    </chapter>
+
+    <chapter title="NAPE CLI - Download and Install  " id="nape-cli-download-install">
+
+        <tabs>
+
+            <tab id="linux-and-macos" title="Linux and MacOs">
+
+                <procedure title="Linux and MacOS Install" id="linux-and-mac0s-install">
+
+                    <step>
+                        <p>Download the binary</p>
+
+                        <list>
+                            <li>
+                                <b>Linux GNU - x86_64</b>
+                                <code-block lang="bash">
+                                    curl -o nape https://repo.napecentral.com/nape-cli/1.0.0/linux-gnu/x86_64/nape
+                                </code-block>
+                            </li>
+                            <li>
+                                <b>MacOS - x86_64</b>
+                                <code-block lang="bash">
+                                    curl -o nape https://repo.napecentral.com/nape-cli/1.0.0/macos/x86_64/nape
+                                </code-block>
+                            </li>
+                            <li>
+                                <b>MacOS - aarch64</b>
+                                <code-block lang="bash">
+                                    curl -o nape https://repo.napecentral.com/nape-cli/1.0.0/macos/aarch64/nape
+                                </code-block>
+                            </li>
+                        </list>
+
+                    </step>
+
+                    <step>
+                        <p>Make the Binary Executable</p>
+                        <code-block lang="bash">
+                            chmod +x nape
+                        </code-block>
+                    </step>
+
+                    <step>
+                        <p>Move the Binary to a Directory in Your PATH</p>
+                        <code-block lang="bash">
+                            sudo mv nape /usr/local/bin/
+                        </code-block>
+                    </step>
+
+                    <step>
+                        <p>Verify the Installation</p>
+                        <code-block lang="bash">
+                            nape --version
+                        </code-block>
+                        <p>If installed correctly, you'll see the following as a response:</p>
+                        <code-block lang="plain text">
+                            NAPE CLI 1.0.0
+                        </code-block>
+                    </step>
+
+                </procedure>
+
+            </tab>
+
+        </tabs>
+
+
+
+    </chapter>
+
+    <p>
+        Now that NAPE is installed, check out the <a href="nape-tutorials.topic"></a>.
+    </p>
+
+</topic>

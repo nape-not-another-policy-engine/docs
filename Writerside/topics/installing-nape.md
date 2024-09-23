@@ -27,6 +27,12 @@ NAPE_CLI ..> NAPE_Evaluator : depends on
 
 ## Ways to Install NAPE
 
+### The Official NAPECentral Binary Repository
+
+This is the **preferred way** to get up and going quickly.  All supported Operating Systems & CPU Architectures are available from the NAPECentral Binary Repo.
+
+[Install NAPE from the **Trusted & Official NAPECentral Binary Repo**](install-nape-from-nape-binary-repo.topic).
+
 ### Build & Install Locally
 
 Build & Install Locally from the [NAPE Source Code](https://github.com/nape-not-another-policy-engine).  This is the pro-version of installing NAPE.  For those used to installing open source locally on their machines, this is a breeze.  All you need to do is simply clone two NAPE repositories and execute a few make commands.
