@@ -12,6 +12,50 @@
 
     <deflist type="full" sorted="asc" collapsible="true" default-state="collapsed">
 
+        <def title="Assurance Engagement" id="assurance-engagement">
+            <p>todo</p>
+
+            <b>Context</b>
+            <p>todo</p>
+
+            <b>Example</b>
+            <p>todo</p>
+
+            <b>Sources</b>
+            <list>
+                <li>todo</li>
+            </list>
+        </def>
+
+        <def title="Assurance Engine" id="assurance-engine">
+            <p>todo</p>
+
+            <b>Context</b>
+            <p>todo</p>
+
+            <b>Example</b>
+            <p>todo</p>
+
+            <b>Sources</b>
+            <list>
+                <li>todo</li>
+            </list>
+        </def>
+
+        <def title="Audit" id="audit">
+            <p>todo</p>
+
+            <b>Context</b>
+            <p>todo</p>
+
+            <b>Example</b>
+            <p>todo</p>
+
+            <b>Sources</b>
+            <list>
+                <li>todo</li>
+            </list>
+        </def>
 
         <def title="Control Action" id="control-action">
             <p>todo</p>

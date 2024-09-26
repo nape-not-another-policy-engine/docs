@@ -7,6 +7,7 @@
                  start-page="nape-overview.md">
 
     <toc-element topic="nape-overview.md">
+        <toc-element topic="the-genesis-of-nape.md"/>
         <toc-element topic="what-problem-does-nape-solve-for.md"/>
         <toc-element topic="how-does-nape-approach-the-problem.md"/>
     </toc-element>
@@ -26,8 +27,9 @@
         </toc-element>
         <toc-element topic="nape-core-concepts.topic">
             <toc-element topic="what-nape-does.md">
-                <toc-element topic="control-assurance-and-audit.topic"/>
+                <toc-element topic="audit-vs-assurance.md"/>
                 <toc-element topic="the-two-types-of-assurance-procedures.topic"/>
+                <toc-element topic="The-NAPE-Assurance-Framework.topic"/>
                 <toc-element topic="pass-fail-inconclusive.topic"/>
             </toc-element>
             <toc-element topic="what-you-do.md">

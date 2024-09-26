@@ -1,10 +1,14 @@
 # What Problem Does NAPE Solve For?
 
+**NAPE allows you to empirically prove that, "you are doing the things that you have stated you are supposed to do," such that the assurance process of verifying that you are "doing what you said you would do" can be automated by computers.**
+
+## The Only Constant is Change
+
 Keeping up with all the rules and regulations is one of the biggest challenges in regulated business. Relying on old methods—like using lots of paperwork and manual labor—is no longer enough as these requirements grow. These traditional methods don’t work well for large-scale operations, are not efficient, and do not help in capturing important information over time.
 
 Many companies and organizations adopt technology in two ways to address such issues, although they continue to run into limitations due to the scale of the job functions and tasks this regulatory and compliance work creates.
 
-## The First Adoption Issue - Misaligned Technology
+### The First Adoption Issue - Misaligned Technology
 
 There is a mismatch between what humans and machines are good at is a reason for this problem. Companies do not use enough of the correct technology to handle simple, repetitive tasks that computers can easily do. Instead, companies do one or both of two things.
 
@@ -13,7 +17,7 @@ There is a mismatch between what humans and machines are good at is a reason for
 
 This approach wastes resources and becomes even more problematic when employees leave, taking important knowledge with them.
 
-## The Second Adoption Issue - Misaligned Labor
+### The Second Adoption Issue - Misaligned Labor
 
 There is a gap between the technical work needed to assure compliance and the knowledge of the people doing the work. Often, people who don’t fully understand the compliance or regulations requirements create solutions that don’t solve the problems. On the other hand, experts who know the rules well cannot handle the technical side, which means they cannot work autonomously on these tasks.
 

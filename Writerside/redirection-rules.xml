@@ -6,4 +6,9 @@
         <accepts>page.html</accepts>
     </rule>
     -->
+    <rule id="3c34a32c">
+        <description>Created after removal of "Controls, Assurance, and Audit" from NAPE - Not Another Policy Engine
+        </description>
+        <accepts>control-assurance-and-audit.html</accepts>
+    </rule>
 </rules>

@@ -6,7 +6,7 @@ NAPEs **reason-to-exist** is to **reduce**, to the absolute minimum, the **waste
 
 ## What is NAPE?
 
-NAPE is the [Assurance Engine](control-assurance-and-audit.topic) which helps teams automate and autonomize assurance activities. It increases the operating capacity for the folks directly effected by assurance and audit tasks, and NAPE achieves this by:
+NAPE is the [Assurance Engine](nape-glossary.topic#assurance-engine) which helps teams automate and autonomize assurance activities. It increases the operating capacity for the folks directly effected by assurance and audit tasks, and NAPE achieves this by:
 
 - **Collecting** evidence in any format,
 - **Evaluating** the evidence to verify specific facts,
@@ -19,3 +19,9 @@ NAPE removes the need for humans to be involved in every single minute step of t
 2) Codifying the [Test of Details](nape-glossary.topic#test-of-details) which provide assurance by either confirming or nullify these activities and actions took place.
 3) Compose, Aggregate, and Report that all the tens, hundreds, or thousands of these required activities and actions did, in fact, happen and occurred to the organizations' expectation.
 4) Automate all of 1, 2, & 3 and have it autonomously execute as part of the daily business processes.
+
+
+TODO - Add the Epistomoloy "How do you konw what you know"
+TODO The Two things that rae not clear in GRC (since GRC seems tob e focused on specifics)
+TODO 1) How do I know that whaty ou tell me is true and valid?
+TODO- 2) How do you know, that what you think, is factual, true, and valid?"

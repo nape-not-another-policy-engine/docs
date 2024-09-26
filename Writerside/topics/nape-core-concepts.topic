@@ -22,10 +22,12 @@
 
         <primary>
             <title>What NAPE Does</title>
-            <a href="control-assurance-and-audit.topic"
+            <a href="audit-vs-assurance.md"
                type="search"/>
             <a href="the-two-types-of-assurance-procedures.topic"
             type="top"/>
+            <a href="The-NAPE-Assurance-Framework.topic"
+               type="network"/>
             <a href="pass-fail-inconclusive.topic"
                type="cross-check"/>
         </primary>
