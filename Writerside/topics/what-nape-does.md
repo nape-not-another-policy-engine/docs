@@ -1,7 +1,5 @@
 # What NAPE Does
 
-NOTE - lead into the bifurcation of "are we doing what we promies", vs "is what we promse to do the best promis we can make"
-
 NAPE is an Assurance Engine which verifies that, "You are doing, or have done, what you said you would, or should, do." It is piece of technology that allows one to objectively codify the criteria required to automate an [Assurance Engagement](nape-glossary.topic#assurance-engagement).  NAPE bakes in the audit and assurance domain concepts and approaches as defined by: 
 
 - [International Auditing and Assurance Standards Board (IAASB) ](https://www.iaasb.org/)
